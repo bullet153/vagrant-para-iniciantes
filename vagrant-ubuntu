@@ -1,0 +1,27 @@
+#Hardware utilizado:
+####Processador: AMD Ryzen 5600G
+####Placa de video: RTX 3060 - 12GB
+####RAM: 64GB - Hyper X Fury Beast - 3400Mhz
+####Water Cooler da Auros - 280mm
+#####Placa mãe: Asus TUF Gaming 570-PT-BR
+######SSD NVme: 2TB - XP Gamming - Windows
+######SSD SATA: 1TB WD - Linux - Ubuntu 22.04
+#----------------------------------------------------------------
+
+#Aplicativos necessários
+#gdebi - instalador de pacotes .deb
+#VirtualBox - 6.01
+#Wireshark
+#VSCode
+#OPCIONAL - PIPER - Para ajustar configurações do mouse
+
+#-----------------------------------------------------------------
+
+#Instruções
+#Com o ubuntu instalado e configurado na sua maquina, vamos baixar o gdebi para instalar pacotes mais rapido
+#Rode o comando
+
+apt update -y
+apt install gdebi -y
+#Apos isso, vamos instalar o Virtualbox
+#
